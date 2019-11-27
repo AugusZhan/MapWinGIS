@@ -437,6 +437,7 @@ private:
 	bool AppendToShpFile(FILE* shp, IShapeWrapper* wrapper);
 	void WriteBounds(FILE* shp);
 	bool ReopenFiles(bool writeMode);
+    bool IsShapeCompatible(IShape* shape);
 
 public:
 	// accessing shapes
